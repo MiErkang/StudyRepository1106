@@ -18,3 +18,5 @@
     3、创建并切换分支——> git checkout -b <分支名> （-b创建并切换分支）/ git switch -c <分支名> （-c创建并切换分支）
     4、合并分支——> git merge <工作成果分支名>（先切换到要合并的分支）
     5、删除分钟——> git branch -d <分支名>
+
+    Test02：Creating a new branch is quick & simple.（master）
