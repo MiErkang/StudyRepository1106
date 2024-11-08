@@ -28,3 +28,8 @@
               2、创建新的issue分支修改bug后合并后再删除；
               3、复制bug修改提交id,用git cherry-pick id 将bug修改提交复制到dev分支；
               4、后git stash pop/reply+drop stash@{0} 恢复stash隐藏内容再继续开发合并到主分支。
+
+##多人协作
+
+    1、查看分支信息——>远程仓库有新分支，本地没有==》git fetch 拉取远程主机的更新
+                   ——>本地仓库有新分支，远程没有==》将本地分支推送到远程仓库即可（test）
