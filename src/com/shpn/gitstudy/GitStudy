@@ -24,5 +24,8 @@
     bug修复分支：Git is a free software and amazing...
 
     dev分支工作只进行到一半，还没法提交，预计完成还需1天时间。但是，必须在两个小时内对master修复该bug，怎么办？
-    解决方案：1、
+    解决方案：1、git stash 将正在工作dev已太添加的分支暂存隔离起来；
+              2、创建新的issue分支修改bug后合并后再删除；
+              3、复制bug修改提交id,用git cherry-pick id 将bug修改提交复制到dev分支；
+              4、后git stash pop/reply+drop stash@{0} 恢复stash隐藏内容再继续开发合并到主分支。
 
