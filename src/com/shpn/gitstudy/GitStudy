@@ -10,4 +10,7 @@
     1、让文件回到最近一次的git add 或者git commit 时的状态——> git checkout -- <fileName>(相当于清理工作区的修改)
     2、切换分支——> git checkout 分支名
     3、撤销暂存区的修改（撤销git add的修改）——> git reset HEAD <fileName> / git restore --staged <fileName>(相当于清理暂存区的修改)
-    
+
+##分支管理
+
+    1、创建分支——> git checkout -b 分支名 （-b创建并切换分支）
