@@ -19,4 +19,4 @@
     4、合并分支——> git merge <工作成果分支名>（先切换到要合并的分支）
     5、删除分钟——> git branch -d <分支名>
 
-    Test02：Creating a new branch is quick & simple.（master）
+    Test：Creating a new branch is quick and simple.
