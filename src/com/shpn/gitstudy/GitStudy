@@ -22,3 +22,7 @@
     Test：Creating a new branch is quick and simple.
 
     bug修复分支：Git is a free software and amazing...
+
+    dev分支工作只进行到一半，还没法提交，预计完成还需1天时间。但是，必须在两个小时内对master修复该bug，怎么办？
+    解决方案：1、
+
